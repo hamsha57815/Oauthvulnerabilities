@@ -6,3 +6,5 @@ callback_url=https://www.periscope.tv (Correct)
 callback_url=https://example.com (Modified)
 https://attacker.com%ff@www.periscope.tv (Modified2)
 
+
+
