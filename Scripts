@@ -1,2 +1,8 @@
 https://zeit.co/api/now/registration/gitlab/connect?mode=login&next=%09http:///zeit.co%40google.com
 https://login.fr.cloud.gov/oauth/authorize?client_id=&response_type=token&redirect_uri=https%3A%2F%2Fevil.com%2Fauth%2Fcallback&state=███
+
+Call_back URL Validation:
+callback_url=https://www.periscope.tv (Correct)
+callback_url=https://example.com (Modified)
+https://attacker.com%ff@www.periscope.tv (Modified2)
+
